@@ -1,0 +1,40 @@
+{
+  "name": "hubot-nexmochat",
+  "author": {
+    "name": "Thomas Howe",
+    "url": "github.com/howethomas"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Howe",
+      "email": "ghostofbasho@gmail.com"
+    }
+  ],
+  "keywords": [
+    "hubot",
+    "nexmo",
+    "adapter"
+  ],
+  "description": "A Nexmo chat api adapter for hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "rwlock": "^5.0.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "main": "./src/nexmo",
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "_shasum": "37adb06cfbb4b316f181359469f4618375f383b1",
+  "_from": "hubot-nexmo@*"
+}
